@@ -97,7 +97,7 @@
             "production": {
               "browserTarget": "translation:build:production"
             },
-            "pl":{
+            "pl": {
               "browserTarget": "translation:build:pl"
             }
           }
@@ -149,6 +149,10 @@
               "devServerTarget": "translation:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
     }
